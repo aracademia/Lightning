@@ -24,6 +24,7 @@
     <p>```
     php artisan config:publish aracademia/lightning
     ```</p>
+
 ### How to use the package
 Let's use an example to see how easy this package is. We are going to create a contact us form.
 open a view file, make sure it has `.blade.php` extension, then enter the following code
