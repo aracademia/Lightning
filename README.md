@@ -42,6 +42,7 @@ Don't worry, we got your back. This package is very flexible and customizable.
 
 ### Edit the config file
 Let's first start by editing the config file. Let's say we want to add a new form that allows the user to add their personal information to their profile.
+
 1. Go to the config file, and add another nested array under the forms array with the form name and the fields
 ```
     "forms"   =>  [
@@ -87,4 +88,4 @@ Take a look at this example. We are going to customize the registration form
 The code above will create a registration form with the default fields in the config file in addition to two new fields (age, mobile).
 if you want to override an existing field attributes, simply pass the name of the field and the attributes you want to add or override.
 
-####FYI: We are working on a newer version of the plugin that will add more functionality and support laravel validation errors.*
+####FYI: We are working on updated version of the plugin that will add more functionality and support laravel validation errors.*
