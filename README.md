@@ -10,9 +10,7 @@
     ```
     "require-dev":
     {
-        
-"aracademia/lightning": "~1.0"
-
+        "aracademia/lightning": "~1.0"
     }
     ```
 </p>
