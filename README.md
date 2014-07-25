@@ -43,13 +43,14 @@ Don't worry, we got your back. This package is very flexible and customizable.
 ### Edit the config file
 Let's first start by editing the config file. Let's say we want to add a new form that allows the user to add their personal information to their profile.
 1. Go to the config file, and add another nested array under the forms array with the form name and the fields
-    ```
+```
     "forms"   =>  [
         'contact'       => 'first_name,last_name,email,message',
         'login'         =>  'email,password',
         'register'      =>  'first_name,last_name,email,password,password_confirmation',
         'personalInfo'  =>  'age, telephone, homephone, favorite_movie'//...etc you got the idea
-    ```
+```
+
 2. Go to your view where you want to place the form and call
 <p>
     ```
