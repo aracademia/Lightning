@@ -1,6 +1,7 @@
 # Lightning Laravel Forms
 =========
 
+<<<<<<< HEAD
 *Create Laravel forms with a single line of code*
 
 ### Installation ( using composer )
