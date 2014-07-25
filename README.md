@@ -38,12 +38,13 @@ If you would like to create a login form, then all you have to do is change the 
     {{Lightning::create('login')}}
     ```
 That will create a login form with email and password fields.
-######Ok, that's cool... but what a minute! what if I want to add other fields or maybe edit the existing fields? what if I want to add attributes to my fields or override the class? how about changing the form action url?*
-Don't worry, we got you covered. This package is very flexible and customizable.
+######Ok, that's cool... but wait a minute! what if I want to add other fields or maybe edit the existing fields? what if I want to add attributes to my fields or override the class? how about changing the form action url?*
+Don't worry, we got your back. This package is very flexible and customizable.
 
 ### Edit the config file
 Let's first start by editing the config file. Let's say we want to add a new form that allows the user to add their personal information to their profile.
 1. Go to the config file, and add another nested array under the forms array with the form name and the fields
+<p>
     ```
     'forms'   =>  [
         'contact'       => 'first_name,last_name,email,message',
@@ -51,10 +52,13 @@ Let's first start by editing the config file. Let's say we want to add a new for
         'register'      =>  'first_name,last_name,email,password,password_confirmation',
         'personalInfo'  =>  'age, telephone, homephone, favorite_movie'//...etc you got the idea
     ```
+</p>
 2. Go to your view where you want to place the form and call
+<p>
     ```
     {{Lightning::create('personalInfo')}}
     ```
+</p>
 You can add more fields or remove some from the existing forms to suit your needs.
 
 The inputTypes array in the config file show some common input field names linked to their html 5 types, that way if you don't want to specify the type of an input manually, this array will set the correct input types to the name.
