@@ -58,7 +58,8 @@ Let's first start by editing the config file. Let's say we want to add a new for
     {{Lightning::create('personalInfo')}}
     ```
 </p>
-You can add more fields or remove some from the existing forms to suit your needs.
+
+You can add more fields or remove some from the existing forms in the config file to suit your needs.
 
 The inputTypes array in the config file show some common input field names linked to their html 5 types, that way if you don't want to specify the type of an input manually, this array will set the correct input types to the name.
 For example, the email input name will have a type of `email` automatically instead of the default `text`
@@ -74,11 +75,11 @@ Lightning::create(1,[2],[3],[4])
 
 1. First argument is a string. It is the name of the form we want to create. ex: login, register, contact...
 
-2. This argument uses the laravel form open argument. we can pass url, route, action, method...etc ex: Lightning::create('register',['url'=>'login','method'=>'post'....])
+2. This argument uses the laravel form open argument. we can pass url, route, action, method...etc ex: ```Lightning::create('register',['url'=>'login','method'=>'post'....])```
 
-3. Here we can add or edit fields to the form and their attributes. make sure to separate the attribute name and value with a colon `:` and a comma `,` between the attributes. ex: Lightning::form('create',['route'=>'product.create'],['name'=>'required:required, id:productName, class:bar'])
+3. Here we can add or edit fields to the form and their attributes. make sure to separate the attribute name and value with a colon `:` and a comma `,` between the attributes. ex: ```Lightning::form('create',['route'=>'product.create'],['name'=>'required:required, id:productName, class:bar'])```
 
-4. Last argument is an array for the submit button. ex: Lightning::create('survey',null,null,['name'=>'submit','value'=>'Send','class'=>'btn btn-primary'])
+4. Last argument is an array for the submit button. ex: ```Lightning::create('survey',null,null,['name'=>'submit','value'=>'Send','class'=>'btn btn-primary'])```
 
 Take a look at this example. We are going to customize the registration form
 
