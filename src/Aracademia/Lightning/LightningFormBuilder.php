@@ -63,7 +63,7 @@ class LightningFormBuilder {
     }
     private static function wrapper()
     {
-        return "<".Config::get("Lightning::htmlWrapper")." class='form-group'>";
+        return "<".Config::get("Lightning::htmlWrapper")." class=".Config::get('Lightning::divGroupClass').">";
     }
     private static function label($field)
     {

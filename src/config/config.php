@@ -26,7 +26,8 @@ return [
 
     ],
     'htmlWrapper'   =>  'div',
+    'divGroupClass' =>  'form-group',
     'inputClass'    =>  'form-control',
-    'submitClass'        =>  'btn btn-default',
+    'submitClass'   =>  'btn btn-default',
     'submitName'    =>  'submit'
 ];
