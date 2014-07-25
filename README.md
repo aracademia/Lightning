@@ -38,7 +38,7 @@ If you would like to create a login form, then all you have to do is change the 
     {{Lightning::create('login')}}
     ```
 That will create a login form with email and password fields.
-* Ok, that's cool... but what a minute! what if I want to add other fields or maybe edit the existing fields? what if I want to add attributes to my fields or override the class? how about changing the form action url?*
+######Ok, that's cool... but what a minute! what if I want to add other fields or maybe edit the existing fields? what if I want to add attributes to my fields or override the class? how about changing the form action url?*
 Don't worry, we got you covered. This package is very flexible and customizable.
 
 ### Edit the config file
