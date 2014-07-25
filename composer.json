@@ -1,0 +1,22 @@
+{
+    "name": "aracademia/lightning",
+    "description": "Create Laravel forms with a single line of code",
+    "keywords": ["Laravel","Aracademia","Forms","Lightning"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rachid Rafia",
+            "email": "rrafiatech@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Aracademia\\Lightning": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
