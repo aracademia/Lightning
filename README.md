@@ -46,7 +46,7 @@ Let's first start by editing the config file. Let's say we want to add a new for
 1. Go to the config file, and add another nested array under the forms array with the form name and the fields
 <p>
     ```
-    'forms'   =>  [
+    "forms"   =>  [
         'contact'       => 'first_name,last_name,email,message',
         'login'         =>  'email,password',
         'register'      =>  'first_name,last_name,email,password,password_confirmation',
