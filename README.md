@@ -70,10 +70,15 @@ The rest of the config file are just bootstrap classes and div wrapper. You can 
 
 The create method for the lightning form accepts 4 arguments
 Lightning::create(1,[2],[3],[4])
+
 1. First argument is a string. It is the name of the form we want to create. ex: login, register, contact...
+
 2. This argument uses the laravel form open argument. we can pass url, route, action, method...etc ex: Lightning::create('register',['url'=>'login','method'=>'post'....])
+
 3. Here we can add or edit fields to the form and their attributes. make sure to separate the attribute name and value with a colon `:` and a comma `,` between the attributes. ex: Lightning::form('create',['route'=>'product.create'],['name'=>'required:required, id:productName, class:bar'])
+
 4. Last argument is an array for the submit button. ex: Lightning::create('survey',null,null,['name'=>'submit','value'=>'Send','class'=>'btn btn-primary'])
+
 Take a look at this example. We are going to customize the registration form
 
 ```
@@ -82,4 +87,4 @@ Take a look at this example. We are going to customize the registration form
 The code above will create a registration form with the default fields in the config file in addition to two new fields (age, mobile).
 if you want to override an existing field attributes, simply pass the name of the field and the attributes you want to add or override.
 
-*####FYI: We are working on a newer version of the plugin that will add more functionality and support laravel validation errors.*
+####FYI: We are working on a newer version of the plugin that will add more functionality and support laravel validation errors.*
