@@ -88,5 +88,3 @@ Take a look at this example. We are going to customize the registration form
 ```
 The code above will create a registration form with the default fields in the config file in addition to two new fields (age, mobile).
 if you want to override an existing field attributes, simply pass the name of the field and the attributes you want to add or override.
-
-####FYI: We are working on updated version of the plugin that will add more functionality and support laravel validation errors.*
